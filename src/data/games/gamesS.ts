@@ -1,6 +1,24 @@
 import { Game, Theme, Platform, Store, GameplayType, Pricing } from "./types";
 
 export const gamesS: Game[] = [
+    {
+    title: "Starport Merchants",
+    description:
+      "From rags to riches, build your merchant empire in this space trader tycoon. Haul cargo, mine asteroids, run factories, trade stocks, command a fleet or even colonize an entire planet. Grow to become a gazillionaire as you outsmart the competition and expand your business across the planets.",
+    year: undefined,
+    themes: [Theme.Financial, Theme.Space, Theme.GeneralBusiness],
+    releaseDate: "TBA"
+    platforms: [Platform.PC],
+    stores: [Store.Steam],
+    links: [
+      {
+        url: "https://store.steampowered.com/app/4546370/Starport_Merchants/",
+        name: Store.Steam,
+      },
+    ],
+    gameplayType: [GameplayType.TextBased],
+    pricing: [Pricing.NotSet],
+  },
   {
     title: "Startopia",
     description:
